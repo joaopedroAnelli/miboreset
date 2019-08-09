@@ -30,23 +30,21 @@
 
     <div class="site-navbar py-2">
 
-<!--      <div class="search-wrap">-->
-<!--        <div class="container">-->
-<!--          <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>-->
-<!--          <form action="#" method="post">-->
-<!--            <input type="text" class="form-control" placeholder="Search keyword and hit enter...">-->
-<!--          </form>-->
-<!--        </div>-->
-<!--      </div>-->
-
       <div class="container-fluid">
-        <div class="row d-flex justify-content-arround align-items-center">
-          <div class="logo col-xl-2 offset-xl-5 d-flex justify-content-center">
+        <div class="row ">
+          <div class="logo d-flex justify-content-center col-xs-9 col-md-4 offset-md-4">
             <div class="site-logo">
               <img style="width: 12em" src="images/MiboLogoDesig-png-1.png">
             </div>
           </div>
-          <div class="main-nav col-xl-5 d-none d-lg-block">
+          <div class="icons col-xs-3 d-flex justify-content-end align-items-center h-100" style="position: absolute; right: 3em">
+            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
+                class="icon-menu"></span></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="main-nav d-none d-lg-block col-12 justify-content-center align-items-center">
             <nav class="site-navigation text-right text-md-center" role="navigation">
               <ul class="site-menu js-clone-nav d-none d-lg-block">
                 <li class="active"><a href="index.html">Home</a></li>
@@ -54,20 +52,22 @@
                 <li><a href="#">Reviews</a></li>
                 <li><a href="#">Shipping & Returns</a></li>
                 <li><a href="#">Contact</a></li>
+                <li>
+                  <div class="icons">
+                    <a href="cart.html" class="icons-btn d-inline-block bag">
+                      <span class="icon-shopping-bag"></span>
+                      <span class="number">2</span>
+                    </a>
+                  </div>
+                </li>
               </ul>
             </nav>
-          </div>
-          <div class="icons" style="position: absolute; right: 3em">
-<!--            <a href="cart.html" class="icons-btn d-inline-block bag">-->
-<!--              <span class="icon-shopping-bag"></span>-->
-<!--              <span class="number">2</span>-->
-<!--            </a>-->
-            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
-                class="icon-menu"></span></a>
           </div>
         </div>
       </div>
     </div>
+
+
 
 
     <section class="site-blocks-cover" style="background-image: url('images/TBrush.png'); height: 87.7vw">
