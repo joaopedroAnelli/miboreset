@@ -45,13 +45,13 @@
 
         <div class="row">
           <div class="main-nav d-none d-lg-block col-12 justify-content-center align-items-center">
-            <nav class="site-navigation text-right text-md-center" role="navigation">
+            <nav id="navbar" class="site-navigation text-right text-md-center" role="navigation">
               <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#">Purchase</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Shipping & Returns</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#purchase">Purchase</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#shipping-returns">Shipping & Returns</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
                   <div class="icons">
                     <a href="cart.html" class="icons-btn d-inline-block bag">
@@ -65,141 +65,110 @@
           </div>
         </div>
       </div>
+
+      <div class="email-capture">
+        <div class="container-fluid h-100">
+          <div class="row h-100">
+            <div class="d-flex justify-content-center align-items-center col-xs-12 col-md-8 offset-md-2">
+              <label>Earn <strong>15% off</strong></label>
+              <input type="text" placeholder="Type your best e-mail">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
 
 
-    <section class="site-blocks-cover" style="background-image: url('images/TBrush.png'); height: 87.7vw">
-      <div class="container">
-        <div class="row" style="height: 100vh">
-          <div class="col-lg-7 mx-auto order-lg-2 align-self-center">
-            <div class="site-block-cover-content text-center">
-              <h2 class="sub-title">Soft. Effective. Simple.</h2>
-              <h1 style="text-transform: unset">MiBo RESET</h1>
-              <p>
-                <a href="#" class="btn btn-primary px-5 py-3">Shop Now</a>
-              </p>
+    <div data-spy="scroll" data-target="#navbar" data-offset="0">
+      <section id="home" class="site-blocks-cover" style="background-image: url('images/TBrush.png'); height: 87.7vw">
+        <div class="container">
+          <div class="row" style="height: 100vh">
+            <div class="col-lg-7 mx-auto order-lg-2 align-self-center">
+              <div class="site-block-cover-content text-center">
+                <h2 class="sub-title">Soft. Effective. Simple.</h2>
+                <h1 style="text-transform: unset">MiBo RESET</h1>
+                <p>
+                  <a href="#" class="btn btn-primary px-5 py-3">Shop Now</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-
-
-<!--    <div class="site-section">-->
-<!--      <div class="container">-->
-<!--        <div class="row align-items-stretch section-overlap">-->
-<!--          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">-->
-<!--            <div class="banner-wrap bg-primary h-100">-->
-<!--              <a href="#" class="h-100">-->
-<!--                <h5>Some <br> Store Benefit</h5>-->
-<!--                <p>-->
-<!--                  Amet sit amet dolor-->
-<!--                  <strong>Lorem, ipsum dolor sit amet consectetur adipisicing.</strong>-->
-<!--                </p>-->
-<!--              </a>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">-->
-<!--            <div class="banner-wrap h-100">-->
-<!--              <a href="#" class="h-100">-->
-<!--                <h5>Another <br> One</h5>-->
-<!--                <p>-->
-<!--                  Amet sit amet dolor-->
-<!--                  <strong>Lorem, ipsum dolor sit amet consectetur adipisicing.</strong>-->
-<!--                </p>-->
-<!--              </a>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">-->
-<!--            <div class="banner-wrap h-100" style="background-color: #7ebdc2">-->
-<!--              <a href="#" class="h-100">-->
-<!--                <h5>Another <br> One</h5>-->
-<!--                <p>-->
-<!--                  Amet sit amet dolor-->
-<!--                  <strong>Lorem, ipsum dolor sit amet consectetur adipisicing.</strong>-->
-<!--                </p>-->
-<!--              </a>-->
-<!--            </div>-->
-<!--          </div>-->
-
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-
-    <div class="site-section ">
-      <div class="container">
-        <div class="row">
-          <div class="title-section text-center col-12">
-            <h2 class="text-uppercase">Why we choose MiBo Reset?</h2>
+      <div id="purchase" class="site-section ">
+        <div class="container">
+          <div class="row">
+            <div class="title-section text-center col-12">
+              <h2 class="text-uppercase">Why we choose MiBo Reset?</h2>
+            </div>
           </div>
-        </div>
 
-        <div class="row mb-4">
+          <div class="row mb-4">
 
             <div class="col-md-6">
-                <div class="jumbotron" style="height: 100%; background-color: #5ed6eb; color: #fff">
-                    <h2>Everything you <strong>Need</strong></h2>
-                    <hr class="divider"/>
-                    <ol class="reasons-list">
-                        <li style="font-size: 1.8em">
-                          <h4>Something awesome</h4>
-                          <p class="reasons-verbose" style="font-size: .4em;">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                          </p>
-                        </li>
+              <div class="jumbotron" style="height: 100%; background-color: #5ed6eb; color: #fff">
+                <h2>Everything you <strong>Need</strong></h2>
+                <hr class="divider"/>
+                <ol class="reasons-list">
+                  <li style="font-size: 1.8em">
+                    <h4>Something awesome</h4>
+                    <p class="reasons-verbose" style="font-size: .4em;">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                  </li>
 
-                      <li style="font-size: 1.8em">
-                        <h4>Another awesome fact</h4>
-                        <p class="reasons-verbose" style="font-size: .4em;">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </li>
+                  <li style="font-size: 1.8em">
+                    <h4>Another awesome fact</h4>
+                    <p class="reasons-verbose" style="font-size: .4em;">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </li>
 
 
-                      <li style="font-size: 1.8em">
-                        <h4>Even more awesome fact</h4>
-                        <p class="reasons-verbose" style="font-size: .4em;">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </li>
+                  <li style="font-size: 1.8em">
+                    <h4>Even more awesome fact</h4>
+                    <p class="reasons-verbose" style="font-size: .4em;">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </li>
 
-                      <li style="font-size: 1.8em">
-                        <h4>I can't believe it</h4>
-                        <p class="reasons-verbose" style="font-size: .4em;">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </li>
+                  <li style="font-size: 1.8em">
+                    <h4>I can't believe it</h4>
+                    <p class="reasons-verbose" style="font-size: .4em;">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </li>
 
-                      <li style="font-size: 1.8em">
-                        <h4>Because of that too!</h4>
-                        <p class="reasons-verbose" style="font-size: .4em;">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </li>
-                    </ol>
-                </div>
+                  <li style="font-size: 1.8em">
+                    <h4>Because of that too!</h4>
+                    <p class="reasons-verbose" style="font-size: .4em;">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </li>
+                </ol>
+              </div>
             </div>
             <div class="col-md-6">
-                <img src="images/AdobeStock_262941154_Preview.jpeg" class="img-fluid">
+              <img src="images/AdobeStock_262941154_Preview.jpeg" class="img-fluid">
             </div>
 
 
-        </div>
-
-        <div class="row">
-
-
-          <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <div class="discount-div">15% OFF</div>
-            <img src="images/women.jpg" class="img-fluid">
           </div>
 
-          <div class="col-md-6">
-            <div class="jumbotron d-flex flex-column text-center align-items-center" style="height: 100%; background-color: #5ed6eb; color: #fff">
+          <div class="row">
+
+
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+              <div class="discount-div">15% OFF</div>
+              <img src="images/women.jpg" class="img-fluid">
+            </div>
+
+            <div class="col-md-6">
+              <div class="jumbotron d-flex flex-column text-center align-items-center" style="height: 100%; background-color: #5ed6eb; color: #fff">
                 <h2>Do you want some <strong>Discount</strong>?</h2>
                 <hr class="divider"/>
 
@@ -211,150 +180,151 @@
 
                   <button class="btn btn-black btn-block">GET 15% OFF</button>
                 </form>
+              </div>
+            </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="site-section ">
+        <div class="container">
+          <div class="row">
+            <div class="title-section text-center col-12">
+              <h2 class="text-uppercase">The Product</h2>
             </div>
           </div>
 
-
-        </div>
-
-
-      </div>
-    </div>
-
-    <div class="site-section ">
-      <div class="container">
-        <div class="row">
-          <div class="title-section text-center col-12">
-            <h2 class="text-uppercase">The Product</h2>
+          <div class="row d-flex justify-content-center">
+            <div class="col-sm-6 col-lg-4 text-center item mb-4">
+              <span class="tag">Sale</span>
+              <a href="shop-single.html"> <img style="width: 270px" src="//cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_300x.jpg?v=1561057678" data-parent-fit="contain" data-widths="[360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.0" data-sizes="auto" alt="Simply Clean Skin" data-variant-image="" data-srcset="//cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_360x.jpg?v=1561057678 360w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_540x.jpg?v=1561057678 540w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_720x.jpg?v=1561057678 720w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_900x.jpg?v=1561057678 900w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1080x.jpg?v=1561057678 1080w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1296x.jpg?v=1561057678 1296w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1512x.jpg?v=1561057678 1512w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1728x.jpg?v=1561057678 1728w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_2048x.jpg?v=1561057678 2048w" sizes="761px" srcset="//cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_360x.jpg?v=1561057678 360w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_540x.jpg?v=1561057678 540w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_720x.jpg?v=1561057678 720w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_900x.jpg?v=1561057678 900w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1080x.jpg?v=1561057678 1080w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1296x.jpg?v=1561057678 1296w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1512x.jpg?v=1561057678 1512w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1728x.jpg?v=1561057678 1728w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_2048x.jpg?v=1561057678 2048w"></a>
+              <h3 class="text-dark"><a href="shop-single.html">MiBo Reset</a></h3>
+              <p class="price"><del>80.00</del> &mdash; $39.99</p>
+            </div>
           </div>
-        </div>
-
-        <div class="row d-flex justify-content-center">
-          <div class="col-sm-6 col-lg-4 text-center item mb-4">
-            <span class="tag">Sale</span>
-            <a href="shop-single.html"> <img style="width: 270px" src="//cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_300x.jpg?v=1561057678" data-parent-fit="contain" data-widths="[360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.0" data-sizes="auto" alt="Simply Clean Skin" data-variant-image="" data-srcset="//cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_360x.jpg?v=1561057678 360w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_540x.jpg?v=1561057678 540w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_720x.jpg?v=1561057678 720w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_900x.jpg?v=1561057678 900w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1080x.jpg?v=1561057678 1080w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1296x.jpg?v=1561057678 1296w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1512x.jpg?v=1561057678 1512w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1728x.jpg?v=1561057678 1728w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_2048x.jpg?v=1561057678 2048w" sizes="761px" srcset="//cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_360x.jpg?v=1561057678 360w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_540x.jpg?v=1561057678 540w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_720x.jpg?v=1561057678 720w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_900x.jpg?v=1561057678 900w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1080x.jpg?v=1561057678 1080w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1296x.jpg?v=1561057678 1296w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1512x.jpg?v=1561057678 1512w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_1728x.jpg?v=1561057678 1728w, //cdn.shopify.com/s/files/1/0097/4143/4940/products/product-image-939116850_2048x.jpg?v=1561057678 2048w"></a>
-            <h3 class="text-dark"><a href="shop-single.html">MiBo Reset</a></h3>
-            <p class="price"><del>80.00</del> &mdash; $39.99</p>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-12 text-center">
-            <a href="shop.html" class="btn btn-primary px-4 py-3">Shop Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="title-section text-center col-12">
-            <h2 class="text-uppercase">Reviews</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 block-3 products-wrap">
-            <div class="nonloop-block-3 no-direction owl-carousel">
-
-              <div class="testimony">
-                <blockquote>
-                  <img src="images/person_1.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat unde.&rdquo;</p>
-                </blockquote>
-
-                <p>&mdash; Kelly Holmes</p>
-              </div>
-
-              <div class="testimony">
-                <blockquote>
-                  <img src="images/person_2.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-
-                <p>&mdash; Rebecca Morando</p>
-              </div>
-
-              <div class="testimony">
-                <blockquote>
-                  <img src="images/person_3.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-
-                <p>&mdash; Lucas Gallone</p>
-              </div>
-
-              <div class="testimony">
-                <blockquote>
-                  <img src="images/person_4.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-
-                <p>&mdash; Andrew Neel</p>
-              </div>
-
+          <div class="row mt-5">
+            <div class="col-12 text-center">
+              <a href="shop.html" class="btn btn-primary px-4 py-3">Shop Now</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-
-            <div class="block-7">
-              <h3 class="footer-heading mb-4">About Us</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates
-                sed dolorum excepturi iure eaque, aut unde.</p>
+      <div class="site-section bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="title-section text-center col-12">
+              <h2 class="text-uppercase">Reviews</h2>
             </div>
-
           </div>
-          <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
-            <h3 class="footer-heading mb-4">Quick Links</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Lorem</a></li>
-              <li><a href="#">Ipsum</a></li>
-              <li><a href="#">Dolor</a></li>
-              <li><a href="#">Sit</a></li>
-            </ul>
-          </div>
+          <div class="row">
+            <div class="col-md-12 block-3 products-wrap">
+              <div class="nonloop-block-3 no-direction owl-carousel">
 
-          <div class="col-md-6 col-lg-3">
-            <div class="block-5 mb-5">
-              <h3 class="footer-heading mb-4">Contact Info</h3>
+                <div class="testimony">
+                  <blockquote>
+                    <img src="images/person_1.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+                    <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat unde.&rdquo;</p>
+                  </blockquote>
+
+                  <p>&mdash; Kelly Holmes</p>
+                </div>
+
+                <div class="testimony">
+                  <blockquote>
+                    <img src="images/person_2.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+                    <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
+                      obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
+                      unde.&rdquo;</p>
+                  </blockquote>
+
+                  <p>&mdash; Rebecca Morando</p>
+                </div>
+
+                <div class="testimony">
+                  <blockquote>
+                    <img src="images/person_3.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+                    <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
+                      obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
+                      unde.&rdquo;</p>
+                  </blockquote>
+
+                  <p>&mdash; Lucas Gallone</p>
+                </div>
+
+                <div class="testimony">
+                  <blockquote>
+                    <img src="images/person_4.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+                    <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
+                      obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
+                      unde.&rdquo;</p>
+                  </blockquote>
+
+                  <p>&mdash; Andrew Neel</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+              <div class="block-7">
+                <h3 class="footer-heading mb-4">About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates
+                  sed dolorum excepturi iure eaque, aut unde.</p>
+              </div>
+
+            </div>
+            <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+              <h3 class="footer-heading mb-4">Quick Links</h3>
               <ul class="list-unstyled">
-                <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
-                <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
-                <li class="email">emailaddress@domain.com</li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Ipsum</a></li>
+                <li><a href="#">Dolor</a></li>
+                <li><a href="#">Sit</a></li>
               </ul>
             </div>
 
+            <div class="col-md-6 col-lg-3">
+              <div class="block-5 mb-5">
+                <h3 class="footer-heading mb-4">Contact Info</h3>
+                <ul class="list-unstyled">
+                  <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
+                  <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
+                  <li class="email">emailaddress@domain.com</li>
+                </ul>
+              </div>
 
+
+            </div>
           </div>
-        </div>
-<!--        <div class="row pt-5 mt-5 text-center">-->
-<!--          <div class="col-md-12">-->
-<!--            <p>-->
-<!--              &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;-->
-<!--              Copyright &copy;-->
-<!--              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made-->
-<!--              with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"-->
-<!--                class="text-primary">Colorlib</a>-->
-<!--              &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;-->
-<!--            </p>-->
-<!--          </div>-->
+          <!--        <div class="row pt-5 mt-5 text-center">-->
+          <!--          <div class="col-md-12">-->
+          <!--            <p>-->
+          <!--              &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;-->
+          <!--              Copyright &copy;-->
+          <!--              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made-->
+          <!--              with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"-->
+          <!--                class="text-primary">Colorlib</a>-->
+          <!--              &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;-->
+          <!--            </p>-->
+          <!--          </div>-->
 
-<!--        </div>-->
-      </div>
-    </footer>
+          <!--        </div>-->
+        </div>
+      </footer>
+    </div>
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
@@ -364,6 +334,8 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/aos.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/scrollspy-animated.js"></script>
 
   <script src="js/main.js"></script>
 
