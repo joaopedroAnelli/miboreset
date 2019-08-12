@@ -1431,7 +1431,13 @@ a:hover {
   padding: 0.8em 1em;
 }
 .email-capture .send-email {
-  background: url("../images/send-button.svg");
+  mask: url("../images/right-arrow.svg");
+  background: white;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  mask-size: cover;
+  margin-left: 1em;
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
@@ -1440,7 +1446,7 @@ a:hover {
   }
   .email-capture input {
     padding: 0.4em 0.5em;
-    max-width: 60vw;
+    max-width: 50vw;
   }
 }
 
