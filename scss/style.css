@@ -1411,8 +1411,6 @@ a:hover {
 }
 
 .email-capture {
-  display: flex;
-  flex-direction: row;
   background-color: #78278b;
   width: 100%;
   height: 5em;
@@ -1429,19 +1427,6 @@ a:hover {
   border-radius: 0;
   border: none;
   padding: 0.8em 1em;
-}
-.email-capture .send-email {
-  background: url("../images/send-button.svg");
-  cursor: pointer;
-}
-@media screen and (max-width: 768px) {
-  .email-capture label {
-    font-size: 1em;
-  }
-  .email-capture input {
-    padding: 0.4em 0.5em;
-    max-width: 60vw;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
