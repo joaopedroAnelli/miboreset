@@ -1450,4 +1450,14 @@ a:hover {
   }
 }
 
+#shipping-returns .row {
+  margin-bottom: 5em;
+}
+#shipping-returns .icon {
+  width: 3em;
+}
+#shipping-returns .text-ship strong {
+  font-weight: 900;
+}
+
 /*# sourceMappingURL=style.css.map */

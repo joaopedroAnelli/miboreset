@@ -1504,3 +1504,18 @@ a {
     }
   }
 }
+
+#shipping-returns {
+  .row {
+    margin-bottom: 5em;
+  }
+  .icon {
+    width: 3em;
+  }
+
+  .text-ship {
+    strong {
+      font-weight: 900;
+    }
+  }
+}
